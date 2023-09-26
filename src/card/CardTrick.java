@@ -16,6 +16,10 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        Card luckyCard = new Card();
+luckyCard.setValue(7); // Set the value to 7
+luckyCard.setSuit("Hearts"); // Set the suit to Hearts
+
         Card[] magicHand = new Card[7];
         Random rand = new Random();
         
